@@ -12,7 +12,7 @@ git clone https://github.com/cuongnm39/bai1.git
 ```console
 cd HelloNetCore
 docker build -t hellonetcore . 
-docker run --name hellonetcore -p 8000:80 hellonetcore:latest
+docker run --name hellonetcore -p 8000:80 -d hellonetcore:latest
 ```
 3. Kiểm tra trên trình duyệt
 ```console
